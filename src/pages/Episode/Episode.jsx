@@ -1,9 +1,7 @@
 import Content from "../../components/Content";
 import PodcastSummary from "../../components/PodcastSummary";
 import EpisodeInfo from "../../components/EpisodeInfo";
-// import { useEffect } from "react";
 import { useData } from "../../context/data-context";
-// import { getPodcastById, getPodcasts } from "../../api/podcasts";
 import { useNavigate, useParams } from "react-router-dom";
 import { useEffect } from "react";
 
@@ -24,7 +22,7 @@ const Podcast = () => {
     return (
       <Content>
         <div className="flex flex-row justify-between">
-          <PodcastSummary />
+          <PodcastSummary onClick />
           <EpisodeInfo />
         </div>
       </Content>

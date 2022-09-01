@@ -4,9 +4,21 @@ In order to execute the project, first install the project modules by running
 
 `npm install`
 
-Then start to start the app in development mode, run
+Then, if you want to start the app in development mode, run
 
 `npm start`
+
+You will find the app being served at
+
+`http://localhost:3000`
+
+Also, if you want to start de app in production mode, run
+
+`npm run build`
+
+`npm install -g serve`
+
+`serve -s build`
 
 You will find the app being served at
 
